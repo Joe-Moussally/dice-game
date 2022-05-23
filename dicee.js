@@ -12,9 +12,9 @@ const rollDice = () => {
     dice2[0].src = "./images/dice"+x2+".png"
 
     if (x1 > x2) {
-        title[0].innerHTML = "Player 1 Wins!"
+        title[0].innerHTML = "🚩Player 1 Wins!"
     } else if (x2 > x1) {
-        title[0].innerHTML = "Player 2 Wins!"
+        title[0].innerHTML = "🚩Player 2 Wins!"
     } else {
         title[0].innerHTML = "Draw!"
     }
